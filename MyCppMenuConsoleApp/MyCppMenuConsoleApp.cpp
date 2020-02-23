@@ -136,7 +136,7 @@ void ResetColore()
 //-------------------------------------------
 void PrintMenu()
 {
-    CString strFileVersion = "1.0.0.0";
+    CString strFileVersion = "1.0.0.2";
     CString strCharSet;
     CString strArchitecture;
 
@@ -238,7 +238,7 @@ void PrintCompileHint()
     system("cls");
     ScreenOutput(20, 3, "To compile in UNICODE or MBCS uncommend", console_text_colors::light_white);
     ScreenOutput(20, 5, "    //#define _UNICODE", console_text_colors::light_white);
-    ScreenOutput(20, 6, "    //#define _UNICODE", console_text_colors::light_white);
+    ScreenOutput(20, 6, "    //#define _MBCS", console_text_colors::light_white);
     ScreenOutput(20, 8, "in pch.h", console_text_colors::light_white);
     ScreenOutput(20, 9, "line 16 and 17 :-)", console_text_colors::light_white);
 
